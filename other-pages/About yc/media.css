@@ -10,6 +10,20 @@
     font-size: 16px;
   }
 
+  .app-iconCont {
+    padding: 7px;
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+
+  .banner-font {
+    font-size: 35px;
+  }
+
   .banner-text1 {
     font-size: 1.4rem;
   }
@@ -116,7 +130,7 @@
   .nav-links ul {
     display: grid;
     height: 86vh;
-    font-size: 28px;
+    font-size: 26px;
     padding: 24px;
   }
 
@@ -343,7 +357,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 370px) {
   .copy-icon span {
     width: 10%;
   }
@@ -421,5 +435,38 @@
 
   .nav-links {
     top: 50px;
+  }
+
+  .nav-links ul {
+    display: grid;
+    height: 82vh;
+    font-size: 23px;
+    padding: 24px;
+  }
+
+  .video-texts {
+    gap: 57px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 76%;
+  }
+
+  .card-text {
+    background-color: white;
+    padding: 9px;
+    border-radius: 12px;
+    height: 160px;
+    margin-top: 9px;
+  }
+
+  .card,
+  #card {
+    height: 29pc;
+  }
+
+  .food-cards {
+    height: 127pc;
   }
 }

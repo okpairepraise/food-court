@@ -48,10 +48,10 @@ body {
 }
 
 .nav-text {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: red;
-    font-size: 27px;
-    text-shadow: 2px 0px 3px red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+  font-size: 27px;
+  text-shadow: 2px 0px 3px red;
 }
 
 .nav-links {
@@ -65,7 +65,7 @@ body {
   list-style: none;
 }
 
-.app-iconCont:hover{
+.app-iconCont:hover {
   transform: scale(0.9);
   transition: 0.8s;
 }
@@ -101,10 +101,15 @@ body {
 
 .font {
   background: white;
-  font-size: 16px;
+  font-size: 17px;
   padding: 4px;
   border-radius: 50%;
   cursor: pointer;
+  width: 33px;
+  display: flex;
+  justify-content: center;
+  height: 33px;
+  align-items: center;
 }
 
 .font i {
@@ -162,7 +167,7 @@ body {
 .app-iconCont {
   background: #333;
   color: #fff;
-  width: 31%;
+  width: 28%;
   text-align: left;
   align-items: center;
   font-size: 16px;
@@ -173,7 +178,7 @@ body {
 }
 
 .banner-font {
-  font-size: 37px;
+  font-size: 32px;
 }
 
 .banner-font-text span {
@@ -183,6 +188,7 @@ body {
 .link {
   display: flex;
   align-items: center;
+  gap: 11px;
 }
 
 .slider {

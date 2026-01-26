@@ -1,0 +1,173 @@
+@media screen and (max-width: 1300px) {
+  .sub-img {
+    width: 80%;
+    position: relative;
+    left: 287px;
+    bottom: 34px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sub-img {
+    width: 80%;
+    position: relative;
+    left: 241px;
+    bottom: 34px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    margin: 0 20px;
+    padding: 18px;
+    width: 97%;
+  }
+
+  .nav-links {
+    width: 60%;
+    font-size: 16px;
+  }
+
+  .sliding-imagesCont {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 29pc;
+  }
+
+  #cont1 {
+    width: 61%;
+  }
+
+  .footer-links {
+    width: 40%;
+  }
+
+  .app-icon {
+    width: 23pc;
+  }
+
+  .sub-img {
+    left: 293px;
+  }
+
+  .sliding-images {
+    width: 93%;
+  }
+
+  .sub-img {
+    left: 193px;
+  }
+
+  .cont {
+    padding: 11px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sliding-imagesCont {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    place-items: center;
+    grid-row-gap: 13px;
+  }
+
+  .nav {
+    margin: 0 14px;
+  }
+
+  .nav-links {
+    position: absolute;
+    background: black;
+    color: white;
+    top: 77px;
+    width: 40rem;
+    height: 107vh;
+    /* right: -43px; */
+    padding: 18px;
+    z-index: 4;
+    transform: scaleX(6) translateX(706px);
+    transition: 0.6s;
+    left: -14px;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  .nav-font-awe {
+    display: none;
+  }
+  .nav-links.active {
+    transform: scaleX(1) skewX(0deg) translateX(0px);
+    transition: 1s;
+  }
+
+  .nav-links ul {
+    display: grid;
+    height: 86vh;
+    font-size: 26px;
+    padding: 24px;
+  }
+
+  #font1 {
+    display: block;
+  }
+
+  body.active {
+    overflow-y: clip;
+  }
+
+  .nav-links ul li a {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+  }
+
+  .background {
+    width: 0%;
+    height: 0px;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    padding: 71px 12px;
+  }
+
+  .app-iconCont {
+    width: 49%;
+    padding: 8px;
+    transition: 0.8s;
+  }
+
+  .app-icon {
+    width: 20pc;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 54pc;
+  }
+
+  .footer-ul,
+  .h3 {
+    justify-content: left;
+  }
+
+  .copy-right {
+    padding: 51px 8px;
+  }
+
+  .copy-icon span {
+    width: 7%;
+  }
+
+  .sub-img {
+    left: 266px;
+  }
+}

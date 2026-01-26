@@ -111,12 +111,12 @@
     transform: translateY(89px);
   }
 
-  .nav-links ul {
-    display: grid;
-    height: 86vh;
-    font-size: 28px;
-    padding: 24px;
-  }
+    .nav-links ul {
+        display: grid;
+        height: 86vh;
+        font-size: 26px;
+        padding: 24px;
+    }
 
   .nav-links {
     position: absolute;
