@@ -182,7 +182,7 @@ header.active {
   justify-content: center;
 }
 
-.video-texts {
+.text-video {
   display: flex;
   position: relative;
   bottom: 119px;
@@ -193,7 +193,7 @@ header.active {
   text-align: center;
 }
 
-.video-texts span {
+.text-video span {
   font-size: 42px;
 }
 

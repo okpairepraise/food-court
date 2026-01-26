@@ -241,10 +241,9 @@
     height: 561px;
   }
 
-  .video-texts {
-    gap: 115px;
-  }
-
+.text-video {
+    gap: 134px;
+}
   .mission {
     width: 100%;
     padding: 9px;
