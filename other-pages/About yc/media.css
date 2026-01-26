@@ -1,0 +1,425 @@
+@media scren and (max-width: 1300px) {
+  .txt2 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-links {
+    width: 60%;
+    font-size: 16px;
+  }
+
+  .banner-text1 {
+    font-size: 1.4rem;
+  }
+
+  .banCont {
+    width: 73%;
+  }
+
+  .mission {
+    width: 77%;
+    padding: 82px;
+  }
+
+  .food-cards {
+    height: 76pc;
+    padding: 25px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 3px;
+  }
+
+  .txt2 {
+    text-transform: capitalize;
+    font-size: 19px;
+  }
+
+  .txt3 {
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+  }
+
+  .card {
+    width: 96%;
+  }
+
+  #card {
+    height: 31pc;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 29pc;
+  }
+
+  .footer-links h3 {
+    place-self: center;
+  }
+
+  .footer-links {
+    width: 40%;
+  }
+
+  .app-icon {
+    width: 23pc;
+  }
+
+  #cont1 {
+    width: 61%;
+  }
+
+  .copy-icon span {
+    width: 3%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mission {
+    width: 86%;
+    padding: 82px;
+  }
+
+  .txt2 {
+    font-size: 18px;
+  }
+
+  .txt3 {
+    color: rgb(68, 68, 68);
+    font-size: 14px;
+  }
+
+  .card {
+    height: 27pc;
+  }
+
+  #card {
+    height: 30pc;
+  }
+
+  .food-cards {
+    height: 71pc;
+    padding: 25px;
+  }
+
+  .copy-icon span {
+    width: 4%;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-links ul {
+    display: grid;
+    height: 86vh;
+    font-size: 28px;
+    padding: 24px;
+  }
+
+  .nav-links {
+    position: absolute;
+    background: black;
+    color: white;
+    top: 77px;
+    width: 40rem;
+    height: 107vh;
+    /* right: -43px; */
+    padding: 18px;
+    z-index: 4;
+    transform: scaleX(6) translateX(706px);
+    transition: 0.6s;
+    left: -14px;
+  }
+
+  .nav-links.active {
+    transform: scaleX(1) skewX(0deg) translateX(0px);
+    transition: 1s;
+  }
+
+  .nav-font-awe {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  .header.active {
+    filter: blur(0px);
+    transition: 0.4s;
+    width: 33pc;
+  }
+
+  .nav-links ul li a::after {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+  }
+
+  .nav {
+    margin: 0 14px;
+  }
+
+  #font1 {
+    display: block;
+  }
+
+  .nav-links ul li a {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 54pc;
+  }
+
+  .footer-ul,
+  .h3 {
+    justify-content: left;
+  }
+
+  .footer-links h3 {
+    place-self: inherit;
+  }
+
+  .app-icon {
+    width: 20pc;
+  }
+
+  .app-iconCont {
+    width: 48%;
+  }
+
+  .copy-right {
+    padding: 51px 8px;
+  }
+
+  .copy-icon span {
+    width: 7%;
+  }
+
+  body.active {
+    overflow-y: clip;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .banner-font {
+    font-size: 29px;
+  }
+
+  .background h1 {
+    font-size: 26px;
+  }
+
+  .background-img {
+    height: 561px;
+  }
+
+  .background-text {
+    height: 561px;
+  }
+
+  .video-texts {
+    gap: 115px;
+  }
+
+  .mission {
+    width: 100%;
+    padding: 9px;
+    margin: 21px;
+  }
+
+  .mission p {
+    font-size: 17px;
+    margin: 23px 0px;
+  }
+
+  .banCont {
+    width: 95%;
+  }
+
+  .banner {
+    padding: 13px;
+    padding-top: 134px;
+  }
+
+  .banner-text1 {
+    font-size: 15px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .food-cards {
+    height: 111pc;
+  }
+
+  .cont-text {
+    margin-bottom: 65px;
+  }
+
+  .card,
+  #card {
+    height: 24pc;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .banner-text1 {
+    font-size: 14px;
+  }
+
+  .banner-text2 {
+    font-size: 1.1rem;
+  }
+
+  .mission h2 {
+    font-size: 42px;
+  }
+
+  .mission p {
+    font-size: 15px;
+    margin: 23px 0px;
+  }
+
+  #card {
+    height: 27pc;
+  }
+
+  .food-cards {
+    height: 115pc;
+  }
+
+  .background h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #font {
+    font-size: 24px;
+    width: 39px;
+    height: 38px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .card {
+    width: 100%;
+    margin: 1px;
+    margin-top: 14px;
+  }
+
+  .cards {
+    padding-top: 9px;
+  }
+
+  .copy-icon span {
+    width: 9%;
+  }
+
+  .food-cards {
+    padding-top: 30px;
+  }
+
+  .banner-text1 {
+    font-size: 13px;
+  }
+
+  .banner-text2 {
+    font-size: 1rem;
+  }
+
+  .foodtext {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .copy-icon span {
+    width: 10%;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .app-iconCont {
+    width: 46%;
+    padding: 3px;
+  }
+
+  .app {
+    position: relative;
+    right: 25px;
+  }
+
+  .app-icon1 {
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .background h1 {
+    font-size: 21px;
+  }
+
+  .background-img {
+    height: 442px;
+  }
+
+  .background-text {
+    height: 442px;
+  }
+
+  .video-texts {
+    gap: 45px;
+  }
+
+  .video-texts span {
+    font-size: 36px;
+  }
+
+  .mission {
+    width: 100%;
+    padding: 0px;
+    margin: 5px;
+  }
+
+  .foodtext {
+    font-size: 13px;
+  }
+
+  .card,
+  #card {
+    height: 27pc;
+  }
+
+  .food-cards {
+    height: 120pc;
+  }
+
+  .banner-text1 {
+    font-size: 11px;
+  }
+
+  .banner-text2 {
+    font-size: 0.9rem;
+  }
+
+  .mission p {
+    font-size: 14px;
+    margin: 23px 0px;
+  }
+
+  .nav-links {
+    top: 50px;
+  }
+}

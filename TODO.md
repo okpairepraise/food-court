@@ -1,0 +1,4 @@
+- [ ] Add prev/next buttons to HTML inside .product_section
+- [ ] Update CSS: change .product-cards to flex with transition, style buttons
+- [ ] Update JS: add slider logic for .product-cards
+- [ ] Test by opening index.html in browser
