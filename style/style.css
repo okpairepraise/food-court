@@ -3,8 +3,12 @@
   margin: 0;
   list-style-type: none;
   box-sizing: border-box;
-  scrollbar-width: thin;
-  scrollbar-color: #bea6ac #dce8f1;
+  scrollbar-width: thin; 
+   scrollbar-color: #bea6ac #dce8f1;
+}
+
+img{
+  -webkit-user-drag: none;
 }
 
 a {
@@ -42,9 +46,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 71px;
-  padding: 21px;
-  width: 94%;
+  padding: 26px;
+  width: 100%;
 }
 
 .nav-text {

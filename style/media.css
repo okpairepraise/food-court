@@ -1,122 +1,111 @@
-@media (max-width: 1440px) {
-  .direction {
-    top: 52pc;
-  }
+@media screen and (max-width: 1200px) {
+}
 
-  .txt2 p {
-    width: 100%;
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 56%;
+    font-size: 16px;
   }
 }
 
-@media (max-width: 900px) {
-  .nav {
-    margin: 0 35px;
-  }
-
-  .copy-icon span {
-    width: 4%;
-  }
-
-  .nav-links {
-    width: 64%;
-  }
-
+@media screen and (max-width: 900px) {
   .slider {
-    height: 70vh;
+    height: 100%;
+  }
+
+  .cards:hover {
+    animation-play-state: running;
   }
 
   .prod-card {
-    flex: 0 7 auto;
-    padding: 10px;
-    height: 451px;
-    min-width: 30%;
-    margin: 16px;
+    height: 441px;
+    width: 33%;
+    margin: 10px;
   }
 
-  .product_section {
-    margin: 0;
-    padding-top: 18px;
-    height: 42pc;
-  }
-
-  .product-text {
-    padding: 24px;
-  }
-
-  .txt2 h3 {
-    font-size: 16px;
+  .product-dots {
+    margin-top: 21px;
   }
 
   .txt2 p {
-    color: grey;
-    font-size: 14px;
-    width: 100%;
+    width: 97%;
   }
 
   .spotCard-cont {
-    width: 86%;
-    gap: 18px;
+    width: 94%;
   }
 
-  .spotcard-img {
-    width: 47%;
+  .background-img {
+    height: 617px;
+  }
+
+  .background-text {
+    height: 617px;
   }
 
   .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 29pc;
+    height: 37pc;
+    grid-template-columns: auto auto auto;
   }
 
   .footer-links h3 {
-    place-self: center;
+    text-align: center;
+  }
+
+  .app-icon {
+    width: 28pc;
+    position: relative;
+    top: 18px;
+  }
+
+  #cont1 {
+    width: 50%;
   }
 
   .footer-links {
     width: 40%;
   }
 
-  .app-icon {
-    width: 23pc;
-  }
-
-  #cont1 {
-    width: 61%;
+  .copy-icon span {
+    width: 3%;
   }
 }
 
-@media (max-width: 850px) {
-  .slider {
-    height: 56vh;
+@media screen and (max-width: 768px) {
+  .copy-icon span {
+    width: 3%;
   }
 
-  .prod-card {
-    height: 463px;
-    margin: 14px;
+  .nav-links {
+    width: 67%;
+    font-size: 15px;
   }
 
-  .txt2 p {
-    font-size: 13px;
-    margin-top: 40px;
+  .nav-text {
+    font-size: 25px;
   }
 
-  .txt2 h3 {
-    position: absolute;
-    width: 100%;
+  .font {
+    font-size: 15px;
+    width: 28px;
+    height: 30px;
   }
 }
 
-@media (max-width: 450px) {
-  .products-card {
-    transform: translateY(89px);
+@media screen and (max-width: 600px) {
+  .font,
+  .nav-font-awe {
+    display: none;
   }
 
-    .nav-links ul {
-        display: grid;
-        height: 86vh;
-        font-size: 26px;
-        padding: 24px;
-    }
+  .bars {
+    display: block;
+  }
+
+  .header {
+    transition: 1s;
+  }
 
   .nav-links {
     position: absolute;
@@ -128,7 +117,7 @@
     /* right: -43px; */
     padding: 18px;
     z-index: 4;
-    transform: scaleX(6) translateX(706px);
+    transform: scaleX(6) translateX(-706px);
     transition: 0.6s;
     left: -14px;
   }
@@ -138,298 +127,140 @@
     transition: 1s;
   }
 
-  .nav-font-awe {
-    display: none;
-  }
-
-  .bars {
-    display: block;
-  }
-
-  .header.active {
-    background: black;
-    filter: blur(0px);
-    transition: 0.4s;
-    width: 33pc;
-  }
-
-  .nav-links ul li a::after {
-    background: linear-gradient(to right, #ffffff, #ffffff);
-  }
-
-  .nav {
-    margin: 0 14px;
-  }
-
-  #font1 {
-    display: block;
-  }
-
   .nav-links ul li a {
     display: flex;
     align-items: center;
     gap: 17px;
   }
 
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 54pc;
+  .banner-text1 {
+    font-size: 48px;
   }
 
-  .footer-ul,
-  .h3 {
-    justify-content: left;
+  .cont {
+    gap: 13px;
   }
 
-  .footer-links h3 {
-    place-self: inherit;
-  }
-
-  .app-icon {
-    width: 20pc;
-  }
-
+  .banner-fontCont,
   .app-iconCont {
-    width: 48%;
+    width: 41%;
   }
 
-  .banner-font {
-    font-size: 31px;
+  .header.active {
+    background: black;
+    filter: none;
+    transition: 1s;
+    z-index: -1;
+    top: 0;
+  }
+  .slide img {
+    width: 89%;
   }
 
-  .app-icon p {
-    font-size: 15px;
+  .body.active {
+    overflow-y: clip;
   }
 
-  .copy-right {
-    padding: 51px 8px;
+  .slide {
+    height: 26pc;
+  }
+
+  .nav-links ul {
+    display: grid;
+    height: 86vh;
+    font-size: 30px;
+    padding: 29px;
   }
 
   .product-cards {
     display: grid;
-    transform: none;
-    place-items: center;
   }
 
-  .banner-text1 {
-    width: 100%;
-    font-size: 44px;
-  }
-
-  .banner-text2 {
-    font-size: 18px;
-  }
-
-  .banner-fontCont {
-    width: 37%;
-    font-size: 16px;
-  }
-
-  .slide img {
-    width: 94%;
-    height: 89%;
-  }
-
-  .slider {
-    height: 76vh;
-  }
-
-  .direction {
-    display: none;
-  }
-
-  .banner2-cont {
-    font-size: 15px;
-  }
-
-  .card {
-    margin: 13px;
-  }
-
-  .product_section {
-    height: 100%;
-    padding-bottom: 30px;
+  #font1 {
+    display: block;
   }
 
   .prod-card {
-    min-width: 85%;
-  }
-
-  .txt2 h3 {
-    font-size: 19px;
-  }
-
-  .txt2 p {
-    font-size: 18px;
-  }
-
-  .fa-champagne-glasses,
-  .fa-phone,
-  .fa-cloud-arrow-down,
-  .fa-briefcase,
-  .fa-users {
-    font-size: 20px;
-  }
-
-  .prod-font,
-  .prod-fonts,
-  .prod-font2,
-  .prod-fonts1,
-  .prod-fonts3 {
-    height: 37px;
-    width: 37px;
-    padding: 16px;
-  }
-
-  .product-dots {
-    display: none;
-  }
-
-  .copy-icon span {
-    width: 7%;
-  }
-
-  .text {
-    font-size: 13px;
-  }
-
-  .background-img {
-    height: 561px;
-  }
-
-  .background-text1 h1 {
-    font-size: 26px;
-  }
-
-  .background-text {
-    height: 561px;
+    height: 441px;
+    width: 95%;
+    margin: 10px;
   }
 
   .spotCard-cont {
     display: grid;
-    width: 100%;
   }
+
+  .product-dots {
+    display: none;
+    margin-top: 21px;
+  }
+
   .spotcard-text {
-    color: #333;
     width: 100%;
-    padding: 15px;
+    padding: 18px;
+  }
+
+  .background-text1 h1 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .spotCard-cont {
+    width: 100%;
   }
 
   .spotcard-img {
     width: 100%;
-    height: 401px;
+    height: 485px;
+    padding: 9px;
   }
 
-  .spotcard-text h2 {
-    font-size: 27px;
+  .chef-spotlight {
+    padding: 20px;
   }
 
-  .spotcard-text h4 {
-    margin-top: 6px;
-    font-size: 18px;
+  .nav-links li a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
   }
 
-  .spotcard-text p {
-    margin-top: 32px;
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 400px) {
-  .banner-fontCont {
-    width: 41%;
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 380px) {
-  .banner-font {
-    font-size: 26px;
+  .footer {
+    height: 55pc;
   }
 
-  .banner-text1 {
-    font-size: 40px;
+  .footer-links h3 {
+    text-align: left;
   }
 
-  .banner-text2 {
-    font-size: 15px;
+  .footer-ul {
+    justify-content: left;
   }
 
-  .spotcard-text p {
-    font-size: 16px;
+  .h3 {
+    display: flex;
+    justify-content: left;
   }
 
-  .spotcard-text h4 {
-    font-size: 16px;
+  .app-icon1 {
+    gap: 15px;
   }
 
-  .background-text1 h1 {
-    font-size: 22px;
+  .app-icon {
+    width: 23pc;
   }
 
-  #font {
-    font-size: 22px;
-    width: 35px;
-    height: 35px;
+  .app-iconCont {
+    width: 59%;
   }
 
   .copy-icon span {
     width: 9%;
-  }
-
-  .prod-card {
-    height: 480px;
-    margin: 14px;
-  }
-
-  .app {
-    position: relative;
-    right: 13px;
-  }
-}
-
-@media (max-width: 330px) {
-  .banner-fontCont {
-    width: 42%;
-  }
-
-  .banner-text1 {
-    width: 100%;
-    font-size: 41px;
-  }
-
-  .banner-text2 {
-    font-size: 17px;
-  }
-
-  .banner2-cont {
-    font-size: 14px;
-  }
-
-  .spotcard-text h4 {
-    margin-top: 6px;
-    font-size: 17px;
-  }
-
-  .spotcard-text p {
-    margin-top: 30px;
-    font-size: 17px;
-  }
-
-  .background-text1 h1 {
-    font-size: 24px;
-  }
-
-  .copy-icon span {
-    width: 9%;
-  }
-
-  .slider {
-    height: 100vh;
-  }
-
-  .slide {
-    height: 36pc;
   }
 }

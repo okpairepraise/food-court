@@ -99,6 +99,10 @@
     padding: 82px;
   }
 
+  .sliding-images:hover {
+    animation-play-state: running;
+  }
+
   .txt2 {
     font-size: 18px;
   }
@@ -144,7 +148,7 @@
     /* right: -43px; */
     padding: 18px;
     z-index: 4;
-    transform: scaleX(6) translateX(706px);
+    transform: scaleX(6) translateX(-706px);
     transition: 0.6s;
     left: -14px;
   }
@@ -241,9 +245,9 @@
     height: 561px;
   }
 
-.text-video {
+  .text-video {
     gap: 134px;
-}
+  }
   .mission {
     width: 100%;
     padding: 9px;

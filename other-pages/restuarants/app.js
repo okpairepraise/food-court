@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const slider = document.getElementById("slider");
 
-  const slidesData = [
+  const mappedCards = [
     {
       mainImg: "./images/img1.webp",
       subImg: "./images/img1-1.webp",
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
-  slider.innerHTML = slidesData
+  slider.innerHTML = mappedCards
     .map(
       (item) => `
       <div class="sliding-images">

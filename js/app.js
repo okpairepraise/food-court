@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  const observer = new IntersectionObserver(obsFunction, { threshold: 0.10 });
+  const observer = new IntersectionObserver(obsFunction, { threshold: 0.1 });
   items.forEach(function (item) {
     observer.observe(item);
   });
@@ -138,4 +138,123 @@ document.addEventListener("DOMContentLoaded", function () {
     headerEl.classList.toggle("active");
     body.classList.toggle("active");
   });
+
+  const slider = document.getElementById("slider");
+
+  const mappedCards = [
+    {
+      mainImg: "./images/quick-eats.webp",
+      title: "Quick Eats - BreaKfast",
+      subtitle: "Set Breakfast Meals",
+    },
+    {
+      mainImg: "./images/Beaakfast-club.webp",
+      title: "Lagos Breakfast Club",
+      subtitle: "Nigerian Breakfast Staples",
+    },
+    {
+      mainImg: "./images/quick-combo.webp",
+      title: "Quick Eats",
+      subtitle: "Quick Combo Meals",
+    },
+    {
+      mainImg: "./images/jollof.webp",
+      title: "Jollof & Co",
+      subtitle: "Delicious Everyday Naija Foods",
+    },
+    {
+      mainImg: "./images/mama-kitchen.webp",
+      title: "Mama's Kitchen",
+      subtitle: "Mama's Famous Native Dish",
+    },
+    {
+      mainImg: "./images/red-pepper.webp",
+      title: "Red Pepper",
+      subtitle: "Afordable Delicious Nigerian Staples",
+    },
+    {
+      mainImg: "./images/green-food.webp",
+      title: "Good Greens",
+      subtitle: "Fuel Your Day With Healthy Eats",
+    },
+    {
+      mainImg: "./images/fresh-press.webp",
+      title: "Fresh press",
+      subtitle: "100% Natural, Freshhly Pressed Daily",
+    },
+    {
+      mainImg: "./images/quick-eats.webp",
+      title: "Quick Eats - BreaKfast",
+      subtitle: "Quick Eats - BreaKfast",
+    },
+    {
+      mainImg: "./images/Beaakfast-club.webp",
+      title: "Lagos Breakfast Club",
+      subtitle: "Nigerian Breakfast Staples",
+    },
+    {
+      mainImg: "./images/quick-eats.webp",
+      title: "Quick Eats - BreaKfast",
+      subtitle: "Set Breakfast Meals",
+    },
+    {
+      mainImg: "./images/Beaakfast-club.webp",
+      title: "Lagos Breakfast Club",
+      subtitle: "Nigerian Breakfast Staples",
+    },
+    {
+      mainImg: "./images/quick-combo.webp",
+      title: "Quick Eats",
+      subtitle: "Quick Combo Meals",
+    },
+    {
+      mainImg: "./images/jollof.webp",
+      title: "Jollof & Co",
+      subtitle: "Delicious Everyday Naija Foods",
+    },
+    {
+      mainImg: "./images/mama-kitchen.webp",
+      title: "Mama's Kitchen",
+      subtitle: "Mama's Famous Native Dish",
+    },
+    {
+      mainImg: "./images/red-pepper.webp",
+      title: "Red Pepper",
+      subtitle: "Afordable Delicious Nigerian Staples",
+    },
+    {
+      mainImg: "./images/green-food.webp",
+      title: "Good Greens",
+      subtitle: "Fuel Your Day With Healthy Eats",
+    },
+    {
+      mainImg: "./images/fresh-press.webp",
+      title: "Fresh press",
+      subtitle: "100% Natural, Freshhly Pressed Daily",
+    },
+    {
+      mainImg: "./images/quick-eats.webp",
+      title: "Quick Eats - BreaKfast",
+      subtitle: "Quick Eats - BreaKfast",
+    },
+    {
+      mainImg: "./images/Beaakfast-club.webp",
+      title: "Lagos Breakfast Club",
+      subtitle: "Nigerian Breakfast Staples",
+    },
+  ];
+
+  slider.innerHTML = mappedCards
+    .map(
+      (item) => `
+
+
+          <div class="card">
+            <img src="${item.mainImg}" alt="${item.title}" />
+             <p id="text1">${item.title}</p>
+             <p id="text">${item.subtitle}</p>
+        </div>
+    `,
+    )
+    .join("");
 });
